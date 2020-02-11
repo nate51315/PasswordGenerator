@@ -6,7 +6,18 @@
 
 
 
+
+
+
 ![Image of PasswordGenerator](https://github.com/nate51315/PasswordGenerator/blob/master/images/Pass-Gen.png)
+
+
+
+
+
+
+
+
 
 
 
@@ -18,6 +29,7 @@ This is a simple app that can be used to generate random passwords. The UI conta
 ### Requirements
 * Java Development Kit [(JDK)](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
 * Java Runtime Environment [(JRE)](https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html)
+* JavaFX [(SDK)](https://docs.oracle.com/javafx/2/installation/jfxpub-installation.htm)
 
 ### How to run the app
 1. Download the app and extract the files inside an IDE
