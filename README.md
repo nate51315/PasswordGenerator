@@ -22,7 +22,6 @@
 
 
 
-
 ### Password Generator
 This is a simple app that can be used to generate random passwords. The UI contains four checkboxes which gives the user some options on what characters will be apart of the password.
 
