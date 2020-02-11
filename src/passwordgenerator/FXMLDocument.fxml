@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="383.0" prefWidth="544.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="passwordgenerator.FXMLDocumentController">
+   <children>
+      <Label layoutX="78.0" layoutY="40.0" prefHeight="17.0" prefWidth="44.0" text="Length" />
+      <Label layoutX="80.0" layoutY="115.0" prefHeight="17.0" prefWidth="70.0" text="Symbols" />
+      <Label layoutX="80.0" layoutY="149.0" prefHeight="17.0" prefWidth="70.0" text="Numbers" />
+      <Button fx:id="btnGenerate" layoutX="78.0" layoutY="268.0" mnemonicParsing="false" onAction="#onClickGenerate" prefHeight="38.0" prefWidth="137.0" text="Generate" />
+      <TextField fx:id="outputField" editable="false" layoutX="38.0" layoutY="321.0" prefHeight="38.0" prefWidth="479.0">
+         <font>
+            <Font size="13.0" />
+         </font></TextField>
+      <CheckBox fx:id="symbolsBox" layoutX="150.0" layoutY="115.0" mnemonicParsing="false" onMouseClicked="#onSymClick" text="!@#$%^&amp;*()&lt;&gt;?" />
+      <CheckBox fx:id="numbersBox" layoutX="150.0" layoutY="149.0" mnemonicParsing="false" onMouseClicked="#onNumClick" text="0123456789" />
+      <TextField fx:id="passLength" editable="false" layoutX="133.0" layoutY="36.0" prefHeight="25.0" prefWidth="125.0" />
+      <TextField fx:id="symbolsCount" layoutX="280.0" layoutY="111.0" onKeyReleased="#keyReleasedOnSymBox" />
+      <TextField fx:id="numbersCount" layoutX="280.0" layoutY="145.0" onKeyReleased="#keyReleasedOnNumBox" />
+      <Label layoutX="78.0" layoutY="183.0" prefHeight="17.0" prefWidth="70.0" text="Lower Case" />
+      <Label layoutX="78.0" layoutY="221.0" prefHeight="17.0" prefWidth="70.0" text="Upper Case" />
+      <CheckBox fx:id="lowerBox" layoutX="150.0" layoutY="183.0" mnemonicParsing="false" onMouseClicked="#onLowerClick" text="abc" />
+      <CheckBox fx:id="upperBox" layoutX="150.0" layoutY="221.0" mnemonicParsing="false" onMouseClicked="#onUpperClick" text="ABC" />
+      <TextField fx:id="lowerCount" layoutX="280.0" layoutY="179.0" onKeyReleased="#keyReleasedOnLowerBox" />
+      <TextField fx:id="upperCount" layoutX="280.0" layoutY="217.0" onKeyReleased="#keyReleasedOnUpperBox" />
+      <Button fx:id="btnReset" layoutX="280.0" layoutY="268.0" mnemonicParsing="false" onMouseClicked="#onClickResetBtn" prefHeight="38.0" prefWidth="149.0" text="Reset" />
+   </children>
+</AnchorPane>
