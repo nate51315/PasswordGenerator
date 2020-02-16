@@ -1,12 +1,6 @@
 # PasswordGenerator
 
-
-
-
-![Image of PasswordGenerator](https://github.com/nate51315/PasswordGenerator/blob/master/images/Pass-Gen.PNG)
-
-
-
+<a href="https://imgur.com/cpu1eG1"><img src="https://i.imgur.com/cpu1eG1.gif" title="source: imgur.com" /></a>
 
 ### Password Generator
 This is a simple app that can be used to generate random passwords. The UI contains four checkboxes which gives the user some options on what characters will be apart of the password.
