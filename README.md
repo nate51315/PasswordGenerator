@@ -2,7 +2,7 @@
 
 <a href="https://imgur.com/cpu1eG1"><img src="https://i.imgur.com/cpu1eG1.gif" title="source: imgur.com" /></a>
 
-### Password Generator :lock:
+### :lock: Password Generator
 This application generates random characters, numbers, and symmbols to be used for a password. The password length and amount of each character, number, and symbol can be controlled by settings a value in its feild.
 
 ### Installation
