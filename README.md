@@ -9,11 +9,11 @@ This application generates random characters, numbers, and symmbols to be used f
 * Download or clone zip folder and extract files into an IDE
 * Download and run in the cli
 
-### Usage
-
-
 ### Requirements
 * Java Development Kit
 * Java Runtime Environment
 * JavaFX SDK
+
+### Usage
+
 
