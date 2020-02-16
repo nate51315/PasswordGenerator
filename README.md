@@ -2,8 +2,15 @@
 
 <a href="https://imgur.com/cpu1eG1"><img src="https://i.imgur.com/cpu1eG1.gif" title="source: imgur.com" /></a>
 
-### Password Generator
-This is a simple app that can be used to generate random passwords.
+### Password Generator :lock:
+This application generates random characters, numbers, and symmbols to be used for a password. The password length and amount of each character, number, and symbol can be controlled by settings a value in its feild.
+
+### Installation
+* Download or clone zip folder and extract files into an IDE
+* Download and run in the cli
+
+### Usage
+
 
 ### Requirements
 * Java Development Kit
