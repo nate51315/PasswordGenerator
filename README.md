@@ -15,5 +15,4 @@ This application generates random characters, numbers, and symmbols to be used f
 * JavaFX SDK
 
 ### Usage
-
-
+In each field enter an amount you want included in the password. If no amount wanted, uncheck the box for that type.
