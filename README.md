@@ -16,3 +16,7 @@ This application generates random characters, numbers, and symmbols to be used f
 
 ### Usage
 In each field enter an amount you want included in the password. If no amount wanted, uncheck the box for that type.
+
+
+## License
+This project is licensed under MIT. Please see [LICENSE file](https://github.com/nate51315/PasswordGenerator/blob/master/LICENSE)
