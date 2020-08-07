@@ -1,4 +1,4 @@
-# PasswordGenerator
+# Password Generator
 
 <a href="https://imgur.com/cpu1eG1"><img src="https://i.imgur.com/cpu1eG1.gif" title="source: imgur.com" /></a>
 
